@@ -1247,7 +1247,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "b70a43ac-ffa9-4ce2-8ab9-d02638443bd8")
 	)
-	(model "C:/Users/varun/Documents/Carnegie Mellon/18873/Avionics-Hardware/KiCad-Libraries/3D Models/DRV8235.stp"
+	(model "${KIPRJMOD}/KiCad-Libraries/3D Models/DRV8235.stp"
 		(offset
 			(xyz 0 0 0)
 		)
