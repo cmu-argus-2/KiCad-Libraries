@@ -11,7 +11,7 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -68,8 +68,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -16 -11)
-		(end 16 -11)
+		(start -20 -11)
+		(end 20 -11)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "7872be6c-214e-40bf-a2bf-5e41dfeb5695")
 	)
 	(fp_line
-		(start -16 11)
-		(end -16 -11)
+		(start -20 11)
+		(end -20 -11)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -88,8 +88,8 @@
 		(uuid "004762d5-7d5f-45a3-9c7c-75bb3842c9bd")
 	)
 	(fp_line
-		(start 16 -11)
-		(end 16 11)
+		(start 20 -11)
+		(end 20 11)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -98,8 +98,8 @@
 		(uuid "baf6d4fd-0576-4483-826e-ce13c4e4d787")
 	)
 	(fp_line
-		(start 16 11)
-		(end -16 11)
+		(start 20 11)
+		(end -20 11)
 		(stroke
 			(width 0.1)
 			(type default)
