@@ -722,4 +722,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3bd2859d-a5b3-4663-9b4f-ce9c2fef5d29")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-8_4.4x3mm_P0.65mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
