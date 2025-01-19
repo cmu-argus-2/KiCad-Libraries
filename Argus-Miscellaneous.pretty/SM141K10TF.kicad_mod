@@ -105,6 +105,12 @@
 		(uuid "f07e69d1-d7ae-4ae4-87ad-6d81dd9421cb")
 	)
 	(pad "1" smd circle
+		(at 25 0)
+		(size 3.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb527123-056e-463a-804e-db41c4b32ccb")
+	)
+	(pad "1" smd circle
 		(at 32 0)
 		(size 3.5 3.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
@@ -116,7 +122,13 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "191221fd-b23a-47de-89a1-d11dac63cdd7")
 	)
-	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K10TF.step"
+	(pad "2" smd circle
+		(at -25 0)
+		(size 3.5 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c5ec6a75-dd58-4d23-880d-082d03eb71d5")
+	)
+	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K10TF.step"
 		(offset
 			(xyz 0 0 0)
 		)

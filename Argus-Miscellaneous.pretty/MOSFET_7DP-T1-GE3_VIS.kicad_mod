@@ -468,60 +468,6 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -2.775001 -1.905)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "7c56dd58-2e94-416d-8297-c1a8f77ff9fe")
-	)
-	(pad "2" smd rect
-		(at -2.775001 -0.635)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "9533bc81-71f4-47fc-a8fe-8dec94dd5581")
-	)
-	(pad "3" smd rect
-		(at -2.775001 0.635)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "9938b9d7-004f-40aa-b886-e12add5d76c8")
-	)
-	(pad "4" smd rect
-		(at -2.775001 1.905)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "0068ba67-ae2e-4bec-9182-d24a316c416b")
-	)
-	(pad "5" smd rect
-		(at 2.775001 1.905)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "12b23913-1503-4c2c-a485-2e8d71581492")
-	)
-	(pad "6" smd rect
-		(at 2.775001 0.635)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "be49421a-932f-44c7-8605-e86c1518fea4")
-	)
-	(pad "7" smd rect
-		(at 2.775001 -0.635)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "c8526d05-38aa-42d1-9a16-805f7b11e9c6")
-	)
-	(pad "8" smd rect
-		(at 0.501701 0)
-		(size 3.8354 3.9116)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "fa8974b1-d1cd-4bb8-9759-f9ca3f8906bc")
-	)
-	(pad "8" smd rect
-		(at 2.775001 -1.905)
-		(size 0.7112 0.508)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "3e683fb8-fcc7-4616-8afb-444e21359b55")
-	)
 	(model "${KIPRJMOD}/KiCad-Libraries/3D Models/SIRA99DP-T1-GE3.stp"
 		(offset
 			(xyz 3 0 0)
