@@ -116,15 +116,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "ded540eb-3689-4349-bdfe-f4e19a7a8be9")
 	)
-	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SunSensorAssembly.step"
+	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SS_ASSEMBLY.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 1.8 -2 7.2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -180 0 90)
 		)
 	)
 )
