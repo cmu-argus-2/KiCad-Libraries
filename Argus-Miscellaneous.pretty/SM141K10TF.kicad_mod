@@ -128,7 +128,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c5ec6a75-dd58-4d23-880d-082d03eb71d5")
 	)
-	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SM141K10TF.step"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K10TF.step"
 		(offset
 			(xyz 0 0 0)
 		)

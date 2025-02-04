@@ -337,7 +337,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "42e4c95d-3418-4805-a72c-4e82df88ab12")
 	)
-	(model "${KIPRJMOD}/KiCad-Libraries/3D Models/E22-900M30S.step"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/E22-900M30S.step"
 		(offset
 			(xyz 0 -1.5 0)
 		)

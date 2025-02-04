@@ -300,7 +300,7 @@
 		)
 		(uuid "47319bd9-0eb4-402d-bd1b-a52acf338ec6")
 	)
-	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/LPS4018-103MRC.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -418,7 +418,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "39cac156-a4dd-4b7c-8f40-36218fe427e9")
 	)
-	(model "${KIPRJMOD}/KiCad-Libraries/3D Models/1048.step"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/1048.step"
 		(offset
 			(xyz 0 -9.5 0)
 		)

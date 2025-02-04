@@ -216,7 +216,7 @@
 		(remove_unused_layers no)
 		(uuid "1a6158fa-0417-4a42-bde6-7348c27e0c77")
 	)
-	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/CGGBP.18.4.A.02--3DModel-STEP-510211.STEP"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/CGGBP.18.4.A.02--3DModel-STEP-510211.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

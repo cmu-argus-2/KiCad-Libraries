@@ -454,7 +454,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8a509b9b-d715-4d29-ab94-e04e88e46c21")
 	)
-	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/2005280040.stp"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/2005280040.stp"
 		(offset
 			(xyz 0 1 0)
 		)

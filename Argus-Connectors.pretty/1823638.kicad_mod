@@ -151,7 +151,7 @@
 		(remove_unused_layers no)
 		(uuid "af1dce5b-f887-48e6-ae97-f8abd2256995")
 	)
-	(model "${KIPRJMOD}/KiCad-Libraries/3D Models/1823638.stp"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/1823638.stp"
 		(offset
 			(xyz -2 1.5 0)
 		)

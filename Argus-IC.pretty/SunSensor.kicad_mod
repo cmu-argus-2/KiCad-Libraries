@@ -116,7 +116,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "ded540eb-3689-4349-bdfe-f4e19a7a8be9")
 	)
-	(model "${KIPRJMOD}/../../KiCad-Libraries/3D Models/SS_ASSEMBLY.STEP"
+	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SS_ASSEMBLY.STEP"
 		(offset
 			(xyz 1.8 -2 7.2)
 		)
