@@ -1,0 +1,129 @@
+(footprint "Antenna Mount v2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e3b1565-0949-4817-bed8-3516777beeaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Antenna Mount v2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88c63402-0bd9-4215-bccc-9905cd3c3dde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5a2c905-8c52-4d7e-8ad3-67fabd3e3948")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e28cdc63-0e02-4755-96fb-c1ef96360ebf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfecb756-5855-4daf-8ccd-fddbfdf6fc8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 5.5 -7.5)
+		(end 5.5 7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "2b318a75-f2d5-462a-857e-e5cc5c21ed28")
+	)
+	(fp_line
+		(start 5.5 7.5)
+		(end 20.5 7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "95853fe0-1cc5-4e63-91c0-5f296954def9")
+	)
+	(fp_line
+		(start 20.5 -7.5)
+		(end 5.5 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8f474254-6af4-4d7d-ad50-cf7ca213c0cc")
+	)
+	(fp_line
+		(start 20.5 7.5)
+		(end 20.5 -7.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "75af1006-0636-4e17-bc4b-922698162ccf")
+	)
+	(fp_circle
+		(center 0.04 0.014801)
+		(end 1.64 0.014801)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "65a97caa-ff85-4ee8-a960-b5f83f36d66b")
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 6.4 11.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "224c92e0-565f-4121-ad99-7249815b0988")
+	)
+)
