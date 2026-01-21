@@ -1,7 +1,7 @@
 (footprint "95009-7661_1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "95009-7661_1")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d010e859-1219-4a19-9c2d-353829fc56a3")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -132,7 +120,7 @@
 			(width 0.254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "7f884661-e29b-42e3-b0c9-156ddbefcd7a")
 	)
@@ -187,6 +175,20 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at -5.08 0)
+		(size 3.33 3.33)
+		(drill 3.33)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "31bbb9cb-40c7-4697-b07d-068340663b58")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.08 0)
+		(size 3.33 3.33)
+		(drill 3.33)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "e6756dc8-c962-4289-a5de-bccc52ed93ae")
+	)
 	(pad "1" thru_hole circle
 		(at 3.175 8.89)
 		(size 1.5 1.5)
@@ -235,22 +237,7 @@
 		(remove_unused_layers no)
 		(uuid "81724608-76b1-4145-8444-f22a45dcce27")
 	)
-	(pad "7" thru_hole circle
-		(at -5.08 0)
-		(size 3.33 3.33)
-		(drill 3.33)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "31bbb9cb-40c7-4697-b07d-068340663b58")
-	)
-	(pad "8" thru_hole circle
-		(at 5.08 0)
-		(size 3.33 3.33)
-		(drill 3.33)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "e6756dc8-c962-4289-a5de-bccc52ed93ae")
-	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/950097661.stp"
 		(offset
 			(xyz 0 10.7700003 0.8999999626)

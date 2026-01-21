@@ -1,4 +1,4 @@
-(footprint "Antenna Mount v2"
+(footprint "Antenna Mount v4"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "Antenna Mount v2"
+	(property "Value" "Antenna Mount v4"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -76,11 +76,11 @@
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "8de090bf-8468-417c-a04f-9a20b8a0dcd5")
+		(uuid "4532cf86-c8f9-4441-bccb-fce9240bac66")
 	)
 	(fp_circle
-		(center 0.04 0.014801)
-		(end 1.64 0.014801)
+		(center 0 0)
+		(end 1.6 0)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -88,13 +88,6 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "65a97caa-ff85-4ee8-a960-b5f83f36d66b")
-	)
-	(pad "1" smd rect
-		(at 0 0)
-		(size 6.4 11.3)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(thermal_bridge_angle 45)
-		(uuid "ec29a3a8-f76d-4542-bbe6-d456e97bac4e")
 	)
 	(embedded_fonts no)
 )

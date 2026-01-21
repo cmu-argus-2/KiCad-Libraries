@@ -1,7 +1,7 @@
-(footprint "SM141K10TF"
-	(version 20240108)
+(footprint "SM141K10TF/S"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "SC1"
 		(at 0.286 2.286 0)
@@ -15,25 +15,13 @@
 			)
 		)
 	)
-	(property "Value" "SM141K10TF"
+	(property "Value" "SM141K10TF/S"
 		(at -0.114 -2.714 0)
 		(layer "F.Fab")
 		(uuid "cd9f86ea-972c-4b86-9661-13d7f6cb2037")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "dc332609-8187-4876-a471-8b74b9765647")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -64,8 +52,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -27.3624 0)
-		(end -29.3624 0)
+		(start -20.5138 0)
+		(end -22.5138 0)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -74,8 +62,8 @@
 		(uuid "a139ecca-5118-4f0c-a8b4-75552899d296")
 	)
 	(fp_line
-		(start 27.1846 0)
-		(end 29.1846 0)
+		(start 20.4376 0)
+		(end 22.4376 0)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -84,8 +72,8 @@
 		(uuid "ee8aaea4-0a6b-4b35-80af-13a36000f082")
 	)
 	(fp_line
-		(start 28.1846 -1)
-		(end 28.1846 1)
+		(start 21.4376 -1)
+		(end 21.4376 1)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -100,34 +88,35 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "f07e69d1-d7ae-4ae4-87ad-6d81dd9421cb")
 	)
 	(pad "1" smd circle
 		(at 25 0)
-		(size 3.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 3.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "bb527123-056e-463a-804e-db41c4b32ccb")
 	)
 	(pad "1" smd circle
 		(at 32 0)
-		(size 3.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 3.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f408ea2a-08fd-44e3-a912-4b86b505b0a3")
 	)
 	(pad "2" smd circle
 		(at -32 0)
-		(size 3.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 3.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "191221fd-b23a-47de-89a1-d11dac63cdd7")
 	)
 	(pad "2" smd circle
 		(at -25 0)
-		(size 3.5 3.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(size 3.2 3.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c5ec6a75-dd58-4d23-880d-082d03eb71d5")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../KiCad-Libraries/3D Models/SM141K10TF.step"
 		(offset
 			(xyz 0 0 0)
